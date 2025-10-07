@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@radix-ui/react-dialog": "^1.1.15"
+    "@radix-ui/react-dialog": "^1.1.15",
+    "expo": "^54.0.12",
+    "expo-updates": "~29.0.12"
   }
 }

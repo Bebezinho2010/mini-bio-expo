@@ -3,16 +3,13 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      {/* Nome destacado */}
       <Text style={styles.title}>Rodrigo Accioly</Text>
 
-      {/* Foto local */}
       <Image
         source={require('../fotominha/r.jpeg')}
         style={styles.image}
       />
 
-      {/* Mini bio */}
       <Text style={styles.bio}>
         Olá! Sou Rodrigo, estudante de desenvolvimento mobile e web. Sou apaixonado por tecnologia.
       </Text>
